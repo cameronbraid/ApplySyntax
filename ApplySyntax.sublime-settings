@@ -156,7 +156,8 @@
             "extensions": [".gitattributes", ".gitconfig", ".gitignore", "ini.dist", ".npmrc"],
             "rules": [
                 {"file_path": ".*/git/(attributes|config|ignore)$"},
-                {"file_path": ".*\\\\git\\\\(attributes|config|ignore)$"}
+                {"file_path": ".*\\\\git\\\\(attributes|config|ignore)$"},
+                {"first_line": "#ini"}
             ]
         },
         {
